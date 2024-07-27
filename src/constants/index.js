@@ -11,7 +11,7 @@ export const EXPERIENCES = [
   {
     year: "2023 - 2023",
     role: "Machine Learning Trainee",
-    company: "Paypal",
+    company: "IBM",
     description: `Achieved successful implementation of machine learning models to predict diamond prices and carat weights with over 90% accuracy. Engineered, trained, and evaluated over 10 regression models, achieving R Squared values consistently above 0.85. Exhibited expertise in handling large datasets and optimizing model performance, leading to a 15% improvement in predictive accuracy.`,
     technologies: ["Python", "Jupyter", "Regression"],
   },
@@ -49,7 +49,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Lucknow, Uttar Pradesh, India",
+  phoneNo: "+917238055043",
+  email: "patelsarvagya5@gmail.com",
 };
