@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+// import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. Currently, I am a pre-final year B.Tech student majoring in Computer Science and Engineering. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -20,6 +20,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Mystery Message",
+    link: "https://www.mysterymessage.sarvagyapatel.in/",
     image: project1,
     description:
       "A fully functional anonymous messaging platform, allowing users to receive messages with a unique link and allowing senders to send messages through that link anonymously.",
@@ -27,6 +28,7 @@ export const PROJECTS = [
   },
   {
     title: "TravelEase",
+    link: "https://www.travelease.sarvagyapatel.in/",
     image: project3,
     description:
       "A website to offer users a comprehensive travel exprience, with features such as providing travel locations at the destination, offering the prices of flights and much more.",
@@ -34,18 +36,19 @@ export const PROJECTS = [
   },
   {
     title: "TodoList",
+    link: "https://www.todolist.sarvagyapatel.in/",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, status and deletion.",
     technologies: ["ReactJs", "Tailwind", "JavaScript", "Appwrite"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
