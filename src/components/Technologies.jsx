@@ -9,6 +9,9 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import webrtc from "../assets/webrtc.svg"
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiPrisma } from "react-icons/si";
+
 
 
 
@@ -43,7 +46,23 @@ function Technologies() {
         className="flex flex-wrap items-center justify-center gap-4"
       >
         <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <BiLogoPostgresql className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
           variants={iconVariants(2.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPrisma className="text-7xl text-white" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
