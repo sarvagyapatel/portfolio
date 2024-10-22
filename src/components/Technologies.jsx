@@ -7,6 +7,10 @@ import { SiRedux } from "react-icons/si";
 import { motion } from "framer-motion";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import webrtc from "../assets/webrtc.svg"
+
+
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -101,6 +105,22 @@ function Technologies() {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiRedux className="text-7xl text-purple-900" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaDocker className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <img src={webrtc} alt="" className="w-20 h-20"/>
         </motion.div>
       </motion.div>
     </div>
